@@ -1,13 +1,15 @@
 {
   "name": "ember-typescript-utils",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Utility functions built around Typescript and Ember",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "typescript",
+    "utilities"
   ],
-  "repository": "",
+  "repository": "https://github.com/happycollision/ember-typescript-utils",
   "license": "MIT",
-  "author": "",
+  "author": "Don Denton <don@happycollision.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"

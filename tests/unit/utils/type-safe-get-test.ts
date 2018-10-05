@@ -1,4 +1,4 @@
-import typeSafeGet, { overrideGet } from 'ember-typescript-utils/utils/type-safe-get';
+import typeSafeGet, { overrideGet } from 'ember-typescript-utils/type-safe-get';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | type-safe-get', function(_hooks) {

@@ -8,6 +8,17 @@ ember install ember-typescript-utils
 
 Some utilities I find useful in an Ember with Typescript app. Just a quick read below for usage.
 
+# The functions:
+
+The functions below can be imported as the default from their own paths (as shown in the examples),
+or as additional imports from `ember-typescript-utils`.
+
+For example, either of these is valid:
+```ts
+import typeSafeGet from 'ember-typescript-utils/type-safe-get';
+import { typeSafeGet } from 'ember-typescript-utils';
+```
+
 ## typeSafeGet
 
 ### Problem

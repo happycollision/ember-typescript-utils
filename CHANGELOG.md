@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - YUI docs
 - This changelog
+- functions are also exported from index as named exports
 
 ## 0.0.1 - 2018-10-05
 ### Added

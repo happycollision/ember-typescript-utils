@@ -1,4 +1,5 @@
 import typeSafeGet from 'ember-typescript-utils/type-safe-get';
+import { typeSafeGet as _justChecking } from 'ember-typescript-utils';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | type-safe-get', function(_hooks) {

@@ -1,4 +1,5 @@
 import overrideGet from 'ember-typescript-utils/override-get';
+import { overrideGet as _justChecking } from 'ember-typescript-utils';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | type-safe-get', function(_hooks) {

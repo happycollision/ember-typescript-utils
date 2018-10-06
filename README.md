@@ -48,8 +48,8 @@ Typescript would check value as `string | undefined`.
 Same idea as above, except you can use dot notation, and just pass in the expected type.
 
 ```ts
-import { overrideGet as get } from 'ember-typescript-utils/type-safe-get';
-const value = get<string>(anObject, 'some.nested.key');
+import overrideGet from 'ember-typescript-utils/override-get';
+const value = overrideGet<string>(anObject, 'some.nested.key');
 ```
 
 This one has no upward limit on how deeply nested a key can be.

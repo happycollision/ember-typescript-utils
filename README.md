@@ -8,7 +8,7 @@ ember install ember-typescript-utils
 
 Some utilities I find useful in an Ember with Typescript app. Just a quick read below for usage.
 
-## safeGet
+## typeSafeGet
 
 ### Problem
 
@@ -35,8 +35,8 @@ So why not have both? Slightly different syntax, but it will type check all the 
 8 levels of nesting and will return `undefined` if part of the nested path is missing:
 
 ```ts
-import safeGet from 'ember-typescript-utils/type-safe-get';
-const value = safeGet(anObject, 'some', 'nested', 'key');
+import typeSafeGet from 'ember-typescript-utils/type-safe-get';
+const value = typeSafeGet(anObject, 'some', 'nested', 'key');
 ```
 
 The type of safeGet is always derived from the object passed in, plus a possible undefined.
